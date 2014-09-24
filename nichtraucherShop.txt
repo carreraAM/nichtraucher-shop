@@ -1,0 +1,54 @@
+1. Projekt-Idee / Features:
+===================== Anwender ============================
+ - Webshop für Nichtraucher-Zigarette
+ - Artikel anzeigen
+ - Artikel in Warenkorb
+ - Benutzer Registrierung / Login
+ - Benutzerdaten anzeigen/ändern
+ - Bestellung abschicken
+ - Bestellungen anzeigen (Status)
+ - Bestellbestätigung per Email
+ - Versandbestätigung per Email
+===========================================================
+===================== Intern ==============================
+ - Übersicht Bestellungen / Aufträge
+ - BestellStatus verändern
+ - Benutzerdaten ändern
+ - Produktdaten ändern
+=========================================================== 
+
+2. Technologie:
+ - Java 7
+ - JSF
+ - PrimeFaces
+ - NoSQL / MySQL
+ - Git
+ - WebServer?
+ - ApplicationServer?
+ 
+3. Modelierung Fachlichkeit / Architektur:
+ - Kunde
+	- Id
+	- Name
+	- Vorname
+	- Adresse
+	- Email
+	- Geburtsdatum
+
+ - Bestellung
+	- Id
+	- Datum
+	- Kunde
+	- Status
+	- Bestellpositionen<Artikel, Menge>
+	- Bestellwert
+ 
+ - Artikel
+	- Id
+	- Bezeichnung
+	- Beschreibung
+	- Preis
+	- Verpackungsart
+	- Bild
+ 
+4. Design:
